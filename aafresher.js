@@ -153,7 +153,7 @@ submitBtn.addEventListener('click', () => {
       quiz.innerHTML = `
       <h2> You Answered ${score}/${quizData.length} questions corretly</h2>
 
-      <button onclick='window.location.href="tada.html" '> Reload </button>
+      <button onclick='window.location.href="aminoacids.html" '> Reload </button>
       `
       
     }
