@@ -14,7 +14,7 @@ body {
 }
 
 .quiz-container {
-  background-color: #fff;
+  background-color: #E1D9D1;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
@@ -29,6 +29,7 @@ h2 {
   padding: 1rem;
   text-align:left;
   margin: 0;
+  font-size: 1rem;
   border: 2px dotted red;
   border-radius: 10px;
   box-shadow: 0 0 20px 10px rgb(0, 0, 0);
@@ -40,8 +41,10 @@ ul {
 }
 
 ul li {
-  font-size: 1.2rem;
-  margin: 1rem 0;
+  font-size: .8rem;
+  border: 2px solid #000;
+  border-radius: 3px;
+  margin-bottom: .5rem;
 }
 
 ul li label {
@@ -49,16 +52,19 @@ ul li label {
 }
 
 button {
+  align-content: center;
+  margin-left: 3.5rem;
   background-color: #16079e;
   font-weight: bold;
+  border-radius: 6px;
   color: #fff;
   border: none;
   display: block;
   font-family: inherit;
   cursor: pointer;
   padding: 1.1rem;
-  width: 100%;
-  font-size: 1.6rem;
+  width: 12rem;
+  font-size: 1.3rem;
 }
 
 button:hover {
@@ -68,11 +74,11 @@ button:hover {
 @media (max-width: 600px) {
 
   body {
-    background: url(3.jpg);
+    background: url(4.jpg);
   }
   .quiz-container {
     width: 300px;
-    height: 600px;
+    height: 400px
   }
 
 
