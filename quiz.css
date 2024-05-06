@@ -71,7 +71,8 @@ button:hover {
     background: url(3.jpg);
   }
   .quiz-container {
-    width: 350px;
+    width: 300px;
+    height: 600px;
   }
 
 
