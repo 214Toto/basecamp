@@ -159,16 +159,7 @@ const quizData = [
     d: "Cellualr swelling",
     correct: "b",
   },
-  {
-    question: "Which of the following may lead to intracellular accumulations:",
-    a: "When a normal substance is produced at a normal or an increased rate, but the metabolic rate is inadequate to remove it.",
-    b: "When a normal endogenous subsance accumulates because of genetic defects in its transport, or section.",
-    c: "When an inherited defect in an enzyme may result in the degradation of a metabolite.",
-    d: "When an abnormal exogegnous sustances is deposited and accumates because the cell has either the enzymatic machinery to degrade the substances nor the ability to transport it to other sites.",
-    correct: "b",
-  },
 ];
-
 
 const quiz = document.getElementById("quiz")
 const answerEls = document.querySelectorAll(".answer")
